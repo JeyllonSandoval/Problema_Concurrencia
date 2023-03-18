@@ -1,6 +1,18 @@
 # Problema_Concurrencia
 Entrega de la primera semana de sistemas operativos, problema numero 1
 
+## Concepto básico de semáforo en los sistemas operativos 
+
+Un semáforo en sistemas operativos es una herramienta que ayuda a diferentes procesos o hilos a compartir recursos de manera organizada y segura. 
+
+- Es como una señal que indica si un recurso está disponible o no para su uso. 
+
+> Los semáforos se utilizan para evitar que varios procesos o hilos accedan al mismo recurso al mismo tiempo, lo que puede causar errores. 
+
+Hay diferentes tipos de semáforos, algunos con dos valores posibles y otros con valores numéricos, pero todos se utilizan para controlar el acceso a recursos compartidos. 
+> Los semáforos son importantes en la programación para que los procesos o hilos cooperen y usen los recursos de manera eficiente.
+
+
 ## Semáforos binarios y enteros
 
 Los semáforos son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos. Hay dos tipos principales de semáforos: binarios y enteros.
