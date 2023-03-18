@@ -1,6 +1,7 @@
 # Problema_Concurrencia
 Entrega de la primera semana de sistemas operativos, problema numero 1
-# Semáforos binarios y enteros
+
+## Semáforos binarios y enteros
 
 Los semáforos son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos. Hay dos tipos principales de semáforos: binarios y enteros.
 
@@ -10,7 +11,7 @@ Los semáforos son una herramienta clave para la coordinación y sincronización
 
 Ambos tipos de semáforos son importantes para asegurar que los procesos trabajen de manera ordenada y sin interferencias en un sistema operativo.
 
-# Relación entre los semáforos y la sincronización
+## Relación entre los semáforos y la sincronización
 
 Los semáforos son una herramienta clave para la sincronización de procesos en sistemas operativos. La sincronización implica coordinar los procesos para evitar conflictos al acceder a los recursos compartidos.
 
