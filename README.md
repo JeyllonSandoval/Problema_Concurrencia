@@ -27,7 +27,7 @@ Los semáforos son una herramienta clave para la coordinación y sincronización
 
 - Los **semáforos enteros** pueden tener valores positivos o cero. Se utilizan para permitir el acceso a un recurso compartido por múltiples procesos, pero solo uno a la vez.
 
- ![Semaforo](/assests/images/Image4107.gif){ width="800" height="600" style="display: block; margin: 0 auto" }
+ ![Semaforo](/assests/images/Image4107.gif) { width="800" height="600" style="display: block; margin: 0 auto" }
 
 Ambos tipos de semáforos son importantes para asegurar que los procesos trabajen de manera ordenada y sin interferencias en un sistema operativo.
 
