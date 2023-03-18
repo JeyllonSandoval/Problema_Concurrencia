@@ -33,6 +33,8 @@ Wait(s): Referenciada normalmente como P(s) o Down(s).
 
 Signal(s): Referenciada normalmente como V(s), Up(s), Post(s) o Release(s).
 
+
+
 Hay dos tipos principales de semáforos: binarios y enteros.
 
 - Los **semáforos binarios** tienen solo dos valores posibles: 0 o 1. Se usan para permitir el acceso a un recurso compartido por un proceso a la vez.
