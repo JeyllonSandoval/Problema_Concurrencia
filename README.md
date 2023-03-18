@@ -11,7 +11,7 @@ Eddy Leonardo 2021-0942
 
 La **concurrencia** se refiere a las situaciones en las que dos o más procesos puedan coincidir en el acceso a un recurso compartido o que requieran coordinarse en su ejecución. Para evitar dicha coincidencia, el sistema operativo ofrece mecanismos de arbitraje que permiten coordinar la ejecución de los procesos.
 
->> En sistemas multiprocesador, esta ejecución simultanea podría conseguirse completamente, puesto que podremos asignarle un proceso a un procesador en específico. Pero en un sistema de un procesador se produce un intercalado (interpuesto) de las instrucciones de los procesos en ejecución (es decir ejecución simultanea de ambos procesos). <<
+> En sistemas multiprocesador, esta ejecución simultanea podría conseguirse completamente, puesto que podremos asignarle un proceso a un procesador en específico. Pero en un sistema de un procesador se produce un intercalado (interpuesto) de las instrucciones de los procesos en ejecución (es decir ejecución simultanea de ambos procesos). <
 
 
 ## Concepto básico de semáforo en los sistemas operativos 
