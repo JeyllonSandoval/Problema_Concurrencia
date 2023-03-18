@@ -5,6 +5,8 @@ Jeyllon Sandoval 2021-1155
 
 Emmanuel Torres 2021-1097  
 
+Eddy Leonardo 2021-0942
+
 ## Concepto básico de semáforo en los sistemas operativos 
 
 Un **semáforo** en **sistemas operativos** es una herramienta que ayuda a diferentes procesos o hilos a compartir recursos de manera organizada y segura. 
