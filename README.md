@@ -1,5 +1,5 @@
 # Problema_Concurrencia
-Entrega de la primera semana de sistemas operativos, problema numero 1    
+Entrega de la primera semana de sistemas operativos, problema numero #1    
 
 Jeyllon Sandoval 2021-1155    
 
