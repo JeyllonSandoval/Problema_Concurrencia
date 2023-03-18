@@ -14,7 +14,7 @@ Ambos tipos de semáforos son importantes para asegurar que los procesos trabaje
 
 Los semáforos son una herramienta clave para la sincronización de procesos en sistemas operativos. La sincronización implica coordinar los procesos para evitar conflictos al acceder a los recursos compartidos.
 
-Los semáforos permiten a los procesos acceder a los recursos compartidos de forma ordenada y controlada. Por ejemplo, un semáforo puede indicar si un recurso está disponible o no. Si el recurso está ocupado, el proceso que lo solicita puede bloquearse y esperar a que esté disponible.
+- Los semáforos permiten a los procesos acceder a los recursos compartidos de forma ordenada y controlada. Por ejemplo, un semáforo puede indicar si un recurso está disponible o no. Si el recurso está ocupado, el proceso que lo solicita puede bloquearse y esperar a que esté disponible.
 
 Además, los semáforos también permiten establecer reglas de acceso a los recursos compartidos, como la exclusión mutua, para asegurar que solo un proceso acceda al recurso a la vez.
 
