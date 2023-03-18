@@ -30,9 +30,9 @@ Hay diferentes tipos de **semáforos**, algunos con dos valores posibles y otros
 Los **semáforos** son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos.
 
 >Un semáforo (s) es una variable que, aparte de la inicialización, solo se puede acceder por medio de 2 operaciones atómicas y mutuamente exclusivas:
-
+>
 >Wait(s): Referenciada normalmente como P(s) o Down(s). 
-
+>
 >Signal(s): Referenciada normalmente como V(s), Up(s), Post(s) o Release(s).
 
 
