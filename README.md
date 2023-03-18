@@ -32,5 +32,3 @@ Los **semáforos** son una herramienta clave para la sincronización de procesos
 > Además, los semáforos también permiten establecer reglas de acceso a los recursos compartidos, como la exclusión mutua, para asegurar que solo un proceso acceda al recurso a la vez.
 
 En conclusión, los semáforos son una herramienta importante para la sincronización de procesos en sistemas operativos, ya que ayudan a establecer reglas de acceso para evitar conflictos o inconsistencias en el acceso a los recursos compartidos.
-
-prueba 
