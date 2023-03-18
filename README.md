@@ -8,7 +8,7 @@ Eddy Leonardo 2021-0942
 
 La **concurrencia** se refiere a las situaciones en las que dos o más procesos puedan coincidir en el acceso a un recurso compartido o que requieran coordinarse en su ejecución. Para evitar dicha coincidencia, el sistema operativo ofrece mecanismos de arbitraje que permiten coordinar la ejecución de los procesos.
 
-> En sistemas multiprocesador, esta ejecución simultanea podría conseguirse completamente, puesto que podremos asignarle un proceso a un procesador en específico. Pero en un sistema de un procesador se produce un intercalado (interpuesto) de las instrucciones de los procesos en ejecución (es decir ejecución simultanea de ambos procesos). <
+> En **sistemas multiprocesador**, esta ejecución simultanea podría conseguirse completamente, ya que podremos asignarle un proceso a un procesador en específico. Pero en un **sistema de un procesador** se produce un intercalado (interpuesto) de las instrucciones de los procesos en ejecución (es decir ejecución simultanea de ambos procesos). 
 
 
 ## Concepto básico de semáforo en los sistemas operativos 
@@ -25,7 +25,12 @@ Hay diferentes tipos de **semáforos**, algunos con dos valores posibles y otros
 
 ## Semáforos binarios y enteros
 
-Los semáforos son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos. Hay dos tipos principales de semáforos: binarios y enteros.
+Los **semáforos** son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos. Un semáforo (s) es una variable que, aparte de la inicialización, solo se puede acceder por medio de 2 operaciones atómicas y mutuamente exclusivas:
+
+Wait(s): Referenciada normalmente como P(s) o Down(s). 
+Signal(s): Referenciada normalmente como V(s), Up(s), Post(s) o Release(s).
+
+Hay dos tipos principales de semáforos: binarios y enteros.
 
 - Los **semáforos binarios** tienen solo dos valores posibles: 0 o 1. Se usan para permitir el acceso a un recurso compartido por un proceso a la vez.
 
