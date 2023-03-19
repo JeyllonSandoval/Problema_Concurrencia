@@ -29,10 +29,13 @@ Hay diferentes tipos de **semáforos**, algunos con dos valores posibles y otros
 Los **semáforos** son una herramienta clave para la coordinación y sincronización de los recursos compartidos entre procesos en los sistemas operativos.
 
 >Un semáforo (s) es una variable que, aparte de la inicialización, solo se puede acceder por medio de 2 operaciones atómicas y mutuamente exclusivas:
+>> Una operacion atomica eses una operación en la que un procesador puede simultáneamente leer una ubicación y escribirla en la misma operación del bus. Esto previene que cualquier otro procesador o dispositivo de E/S escriba o lea la memoria hasta que la operación se haya completado.
 >
->Wait(s): Referenciada normalmente como P(s) o Down(s). 
+El término atómico implica la indivisibilidad e irreductibilidad del proceso, ya que este debe realizarse en su totalidad o en caso de ser interrumpido poder deshacer sus acciones de modo que fuese como si no se hubiese realizado acción alguna.
 >
->Signal(s): Referenciada normalmente como V(s), Up(s), Post(s) o Release(s).
+>Wait(s): Referenciada normalmente como P(s) o Down(s). Si el estado indica cero, el proceso se queda atrapado en el semáforo hasta que sea despertado por otro proceso. Si el estado indica que un proceso más puede acceder el recurso se decrementa el contador y la operación termina con exito.
+>
+>Signal(s): Referenciada normalmente como V(s), Up(s), Post(s) o Release(s). Una vez se ha terminado el uso del recurso, el proceso lo señaliza al semáforo. Si queda algún proceso bloqueado en el semáforo uno de ellos sea despertado, sino se incrementa el contador. La operación signal() también tiene que estár implementada como instrucción atómica. En algunás implementaciones es posible comprobar si se haya despertado un proceso con exito en caso que hubiera alguno bloqueado.
 
 
 
