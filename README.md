@@ -31,7 +31,8 @@ Los **semáforos** son una herramienta clave para la coordinación y sincronizac
 >Un semáforo (s) es una variable que, aparte de la inicialización, solo se puede acceder por medio de 2 operaciones atómicas y mutuamente exclusivas:
 >> Una operacion atomica eses una operación en la que un procesador puede simultáneamente leer una ubicación y escribirla en la misma operación del bus. Esto previene que cualquier otro procesador o dispositivo de E/S escriba o lea la memoria hasta que la operación se haya completado.
 >
-El término atómico implica la indivisibilidad e irreductibilidad del proceso, ya que este debe realizarse en su totalidad o en caso de ser interrumpido poder deshacer sus acciones de modo que fuese como si no se hubiese realizado acción alguna.
+>>El término atómico implica la indivisibilidad e irreductibilidad del proceso, ya que este debe realizarse en su totalidad o en caso de ser interrumpido poder deshacer sus acciones de modo que fuese como si no se hubiese realizado acción alguna.
+>
 >
 >Wait(s): Referenciada normalmente como P(s) o Down(s). Si el estado indica cero, el proceso se queda atrapado en el semáforo hasta que sea despertado por otro proceso. Si el estado indica que un proceso más puede acceder el recurso se decrementa el contador y la operación termina con exito.
 >
