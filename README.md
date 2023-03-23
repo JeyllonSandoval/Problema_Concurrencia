@@ -3,7 +3,7 @@ Jeyllon Sandoval 2021-1155
 Emmanuel Torres 2021-1097
 
 
-# Problema_Concurrencia
+# Problema Concurrencia
 
 ## Que es la concurrencia?
 
